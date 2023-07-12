@@ -5,16 +5,20 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+
       <header className="App-header text-center">
-        Dictionary
+        <h1>Dictionary</h1>
       </header>
+
       <main>
         <Dictionary />
       </main>
    
       <footer>
-        Coded by Alex Fuentes
+        Coded by Alex Fuentes, 
+        <a href="https://github.com/alexpfuentes/react-dictionary">open-source</a>
       </footer>
+
       </div>
     </div>
   );
