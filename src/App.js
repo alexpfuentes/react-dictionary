@@ -11,7 +11,7 @@ function App() {
       </header>
 
       <main>
-        <Dictionary />
+        <Dictionary defaultkeyword="sunset" />
       </main>
    
       <footer>
